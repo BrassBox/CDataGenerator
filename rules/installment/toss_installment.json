@@ -1,0 +1,29 @@
+{
+  "id": {
+    "type": "string",
+    "restriction": {
+      "toss": {
+        "min_value" : 0,
+        "max_value": 12
+      }
+    }
+  },
+  "payment_number": {
+    "type": "number"
+  },
+  "quantity": {
+    "type": "integer",
+    "restriction": {
+      "card": {
+        "min_value" : 0,
+        "max_value": 12
+      }
+    }
+  },
+  "promo": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    }
+  }
+}

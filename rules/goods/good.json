@@ -1,0 +1,41 @@
+{
+  "name": {
+    "type": "string"
+  },
+  "sku": {
+    "type": "string"
+  },
+  "url": {
+    "type": "string"
+  },
+  "quantity": {
+    "type": "number",
+    "exclusiveMinimum": 0
+  },
+  "total_amount": {
+    "type": "number",
+    "exclusiveMinimum": 0
+  },
+  "unit_amount": {
+    "type": "number",
+    "exclusiveMinimum": 0
+  },
+  "total_tax_rate": {
+    "type": "number"
+  },
+  "total_tax_amount": {
+    "type": "number"
+  },
+  "total_discount_amount": {
+    "type": "number"
+  },
+  "taxable_amount": {
+    "type": "number"
+  },
+  "tax_exempt_amount": {
+    "type": "number",
+    "lt": {
+      "toss": "amount"
+    }
+  }
+}

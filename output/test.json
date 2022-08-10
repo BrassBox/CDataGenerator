@@ -1,0 +1,124 @@
+{
+    "transaction": {
+        "reference": "QNvykWCGcEcoZKPpIDPNShaQKPNXgsdCfldvbprxeldkOuHsrqaSnuhUQI",
+        "amount": 310918,
+        "currency": "MZN",
+        "country": "Suriname",
+        "auto_capture": true,
+        "note": ""
+    },
+    "payment": {
+        "method": "banktransfer",
+        "indicator": "dHGvbC",
+        "request_token": false,
+        "timeout": 72,
+        "token": "GbHzA",
+        "nonce": "sknPSgQSI",
+        "client": [
+            "mobile_browser"
+        ],
+        "data": {
+            "pan": "639026639927",
+            "first_name": "Jennifer",
+            "last_name": "Oconnor",
+            "expiry": "01/23",
+            "cvv": "218"
+        },
+        "billing_address": {
+            "street": "088 Nicole Plaza",
+            "street2": "",
+            "city": "New Ashley",
+            "state": "Colorado",
+            "zip": "42232",
+            "country": "United States"
+        },
+        "3ds": {
+            "indicator": "WOnBl",
+            "id": "npvRkE",
+            "authentication": "iWGoEcLK",
+            "server": "BGvUQFvHyg",
+            "version": "WBilEuHeo"
+        },
+        "cof": {
+            "indicator": "gFEwZtJ",
+            "id": "nCUxUAprC",
+            "request": false
+        },
+        "check": {
+            "cvv": true,
+            "avs": true
+        }
+    },
+    "consumer": {
+        "reference": "",
+        "first_name": "Hannah",
+        "last_name": "Evans",
+        "phone": "(031)910-8336x6349",
+        "email": "hannah4107@hotmail.com",
+        "ext_data": {
+            "document_id": "",
+            "eft_code": ""
+        }
+    },
+    "goods": {
+        "data": {
+            "item": [
+                {
+                    "name": "NCJDF",
+                    "sku": "JugcLeOTlr",
+                    "url": "http://rowland.net/",
+                    "quantity": 29,
+                    "total_amount": 232029,
+                    "unit_amount": 8001,
+                    "total_tax_rate": 134,
+                    "total_tax_amount": 310918,
+                    "total_discount_amount": 0,
+                    "taxable_amount": 232029,
+                    "tax_exempt_amount": 0
+                }
+            ]
+        },
+        "shipping": {
+            "first_name": "Hannah",
+            "last_name": "Rodriguez",
+            "phone": "(030)332-4531",
+            "email": "hannah4523@yahoo.com",
+            "street": "28909 Kelly Rapid Apt. 121",
+            "street2": "",
+            "city": "Shellymouth",
+            "state": "Massachusetts",
+            "zip": "53644",
+            "country": "United States"
+        }
+    },
+    "installments": {
+        "id": 1,
+        "payment_number": 1,
+        "quantity": 3,
+        "promo": [
+            "btscx"
+        ]
+    },
+    "urls": {
+        "ipn": "https://www.lee-dunn.com/main.php",
+        "success": "https://webster.com/category/blog/author.html",
+        "fail": "https://butler.com/",
+        "mobile": "https://jones-wright.com/",
+        "cancel": "https://www.daniels.com/posts/login/"
+    },
+    "ext": {
+        "device": {
+            "id": "ssONhBcld",
+            "ip": "186.202.9.23",
+            "fingerprint": "fRMoUbLiV"
+        },
+        "client": {
+            "app": "NnbEihTKG",
+            "version": "dgdXKl"
+        },
+        "transaction": {
+            "cash_receipt": "LmsXp",
+            "registration_number": "MwomAAGam"
+        }
+    }
+}

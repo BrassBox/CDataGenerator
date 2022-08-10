@@ -1,0 +1,122 @@
+{
+  "method": {
+    "type": "string",
+    "minLength": 1,
+    "toss": [
+      "card",
+      "banktransfer",
+      "toss",
+      "lpay",
+      "lgpay",
+      "samsungpay"
+    ],
+    "required": []
+  },
+  "indicator": {
+    "type": "string"
+  },
+  "request_token": {
+    "type": "boolean"
+  },
+  "timeout": {
+    "type": "integer",
+    "minimum": 0,
+    "required": [
+      "toss"
+    ]
+  },
+  "token": {
+    "type": "string"
+  },
+  "nonce": {
+    "type": "string"
+  },
+  "client": {
+    "type": "array",
+    "items": {
+      "type": "string",
+      "enum": [
+        "desktop",
+        "mobile_browser",
+        "mobile_native",
+        "mini_program"
+      ]
+    },
+    "minItems": 1,
+    "uniqueItems": true
+  },
+  "data": {
+    "pan": {
+      "type": "string"
+    },
+    "first_name": {
+      "type": "string"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "expiry": {
+      "type": "string",
+      "pattern": "^(([0][1-9])|([1][0-2]))\\/[2-9][0-9]$"
+    },
+    "cvv": {
+      "type": "string"
+    }
+  },
+  "billing_address": {
+    "street": {
+      "type": "string"
+    },
+    "street2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "zip": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    }
+  },
+  "3ds": {
+    "indicator": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "authentication": {
+      "type": "string"
+    },
+    "server": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "cof": {
+    "request": {
+      "type": "boolean"
+    },
+    "id": {
+      "type": "string"
+    },
+    "indicator": {
+      "type": "string"
+    }
+  },
+  "check": {
+    "cvv": {
+      "type": "boolean"
+    },
+    "avs": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "first_name": {
+    "type": "string"
+  },
+  "last_name": {
+    "type": "string"
+  },
+  "phone": {
+    "type": "string"
+  },
+  "email": {
+    "type": "string",
+    "pattern": ",^[+a-zA-Z0-9_.!#$%&\'*\\/=?^`{|}~-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z0-9]{2,63}$"
+  },
+  "street": {
+    "type": "string"
+  },
+  "street2": {
+    "type": "string"
+  },
+  "city": {
+    "type": "string"
+  },
+  "state": {
+    "type": "string"
+  },
+  "zip": {
+    "type": "string"
+  },
+  "country": {
+    "type": "string"
+  }
+}

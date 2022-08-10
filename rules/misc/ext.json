@@ -1,0 +1,31 @@
+{
+  "device": {
+    "id": {
+      "type": "string"
+    },
+    "ip": {
+      "type": "string"
+    },
+    "fingerprint": {
+      "type": "string"
+    }
+  },
+  "client": {
+    "app": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "transaction": {
+    "cash_receipt": {
+      "type": {
+        "type": "string"
+      },
+      "registration_number": {
+        "type": "string"
+      }
+    }
+  }
+}

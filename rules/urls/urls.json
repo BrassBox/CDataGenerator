@@ -1,0 +1,26 @@
+{
+  "ipn": {
+    "type": "string",
+    "required": [
+      "toss"
+    ]
+  },
+  "success": {
+    "type": "string",
+    "required": [
+      "toss"
+    ]
+  },
+  "fail": {
+    "type": "string",
+    "required": [
+      "toss"
+    ]
+  },
+  "mobile": {
+    "type": "string"
+  },
+  "cancel": {
+    "type": "string"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "data": {
+    "item": [],
+    "minItems": 1,
+    "type": "array",
+    "required": []
+  },
+  "shipping": {}
+}

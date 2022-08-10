@@ -1,0 +1,34 @@
+{
+  "reference": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 64,
+    "required": []
+  },
+  "amount": {
+    "type": "integer",
+    "exclusiveMinimum": 0,
+    "gt": {
+      "toss": 100,
+      "toss_banktransfer": 200
+    },
+    "required": []
+  },
+  "currency": {
+    "type": "string",
+    "required": []
+  },
+  "country": {
+    "type": "string"
+  },
+  "auto_capture": {
+    "type": "boolean",
+    "required": [
+      "banktransfer",
+      "toss"
+    ]
+  },
+  "note": {
+    "type": "string"
+  }
+}
